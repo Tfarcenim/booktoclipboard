@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "booktoclipboard",
   "version": "${version}",
 
   "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Copy written books to clipboard",
   "authors": [
     "Me!"
   ],
@@ -19,11 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
+    ],
+    "cotton-client-commands": ["tfar.booktoclipboard.ExampleMod"]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
